@@ -53,3 +53,7 @@ that it's a good idea to define the contract for data in an application early an
 The next feature that I would like to tackle, would be giving users the ability to create new contacts to add to the local database. 
 I would be able to reuse many parts of the existing data layer as well as integrate a new `CreateContactScreen` into my composition by adding a NavGraph as mentioned above.
 As the app's features grow it would probably be a good idea to add some UseCases to the domain layer to better isolate more specific user and data flows that would materialize.
+
+![Screenshot_20230210_054538](https://user-images.githubusercontent.com/15655675/218073007-d7eaf34f-3ace-4bde-9c0c-da881753d4e5.png)
+
+
