@@ -1,13 +1,11 @@
 package com.sevdotdev.kontactzzz.contacts.data.mapper
 
-import com.sevdotdev.kontactzzz.contacts.data.ContactsJson
-import com.sevdotdev.kontactzzz.contacts.data.datasource.ContactsList
 import com.sevdotdev.kontactzzz.contacts.data.model.ContactEntity
 import com.sevdotdev.kontactzzz.contacts.data.model.ContactItemJson
 import com.sevdotdev.kontactzzz.contacts.domain.model.Contact
 
 @JvmName("entityToDomain")
-internal fun List<ContactEntity>.toDomain(): ContactsList =
+internal fun List<ContactEntity>.toDomain(): List<Contact> =
     map { contactEntity ->
         contactEntity.toDomain()
     }
@@ -21,7 +19,7 @@ internal fun ContactEntity.toDomain(): Contact = Contact(
 )
 
 @JvmName("jsonToDomain")
-internal fun ContactsJson.toDomain(): ContactsList = map { contactItemJson ->
+internal fun List<ContactItemJson>.toDomain(): List<Contact> = map { contactItemJson ->
     contactItemJson.toDomain()
 }
 

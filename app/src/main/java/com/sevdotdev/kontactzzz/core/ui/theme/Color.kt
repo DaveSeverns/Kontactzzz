@@ -1,4 +1,4 @@
-package com.sevdotdev.kontactzzz.ui.theme
+package com.sevdotdev.kontactzzz.core.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

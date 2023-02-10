@@ -4,4 +4,7 @@
     <string name="dismiss_label">Dismiss</string>
     <string name="network_error_message">A network issue is preventing a contacts update from the server</string>
     <string name="unknown_error_message">An unknown error has occurred. This type of thing never happens to books</string>
+    <string name="phone_content_description">Phone number</string>
+    <string name="email_content_description">Email address</string>
+    <string name="empty_contacts_list_message">Looks like there is no one here, pull down from the top of the screen to try an get this party started.</string>
 </resources>

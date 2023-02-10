@@ -1,8 +1,9 @@
 package com.sevdotdev.kontactzzz.core.domain.model
 
-import androidx.compose.runtime.Stable
-
-@Stable
+/**
+ * Sealed class representing buckets of errors the app may encounter and can
+ * easily process.
+ */
 sealed class Error{
     object NetworkError: Error()
     object UnknownError: Error()
